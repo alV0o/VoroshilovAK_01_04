@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VoroshilovAK_01_04</string>
+    <string name="reg">Регистрация</string>
+    <string name="login_and_password">Введите ваш логин и пароль</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="welcome">Войти</string>
+    <string name="credit_calc">Кредитный калькулятор</string>
+    <string name="how_many">Сколько вам нужно</string>
+    <string name="calc">Рассчитать</string>
+    <string name="min">от 30 000</string>
+    <string name="max">до 100 000</string>
+    <string name="print_date">Введите срок кредита</string>
+    <string name="month_payment">Ежемесячный платеж</string>
+    <string name="sum_credit">Сумма кредита</string>
+</resources>
