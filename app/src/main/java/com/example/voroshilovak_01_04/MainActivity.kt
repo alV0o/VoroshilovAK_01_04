@@ -17,16 +17,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        login = findViewById(R.id.login)
+        password = findViewById(R.id.password)
+        help = findViewById(R.id.help)
     }
 
     fun Welcome(view: View) {
-        login = view.findViewById(R.id.login)
-        password = view.findViewById(R.id.password)
-        help = view.findViewById(R.id.help)
 
-        if (login.text.isNotEmpty() && password.text.isNotEmpty()){
+        if (login.text.toString().isNotEmpty() && password.text.toString().isNotEmpty()){
             help.visibility = View.INVISIBLE
             intent = Intent(this, CreditCalcActivity::class.java)
+            startActivity(intent)
         }
         else{
             help.visibility = View.VISIBLE
